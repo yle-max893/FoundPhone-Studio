@@ -4918,3 +4918,56 @@ label {
   background: #e34f58;
   transform: rotate(135deg);
 }
+
+
+/* WeChat-style voice message bubbles for recorded chat audio. */
+.wechat-ui .skin-bubble:has(.wx-voice-message) {
+  min-width: 92px;
+  max-width: 190px;
+  padding: 9px 11px;
+}
+.wx-voice-message {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 20px;
+  white-space: nowrap;
+  color: #252525;
+}
+.wx-voice-speaker {
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: -3px;
+  transform: scaleX(.9);
+}
+.wx-voice-wave {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  height: 20px;
+}
+.wx-voice-wave i {
+  display: block;
+  width: 2px;
+  border-radius: 2px;
+  background: currentColor;
+  opacity: .78;
+}
+.wx-voice-duration {
+  margin-left: auto;
+  font-size: 10px;
+  color: #777;
+}
+.wechat-ui .outgoing .wx-voice-message {
+  flex-direction: row-reverse;
+}
+.wechat-ui .outgoing .wx-voice-duration {
+  margin-left: 0;
+  margin-right: auto;
+}
+.dark-phone .wx-voice-message {
+  color: #f3f3f3;
+}
+.dark-phone .wx-voice-duration {
+  color: #b8b8b8;
+}
