@@ -2,17 +2,17 @@
   "scriptVersion": 1,
   "id": "su-xinhao-found-phone",
   "title": "苏新皓的手机",
-  "description": "虚构的爱情向捡手机互动故事。解锁手机后，一条来自“宝宝”的快递提醒，慢慢牵出苏新皓藏起来的感情。",
-  "revision": 3,
+  "description": "虚构的爱情向捡手机互动故事。当前版本呈现苏新皓手机尚未触发剧情时的日常初始状态。",
+  "revision": 4,
   "phone": {
     "owner": "苏新皓",
     "date": "2026-11-17",
-    "time": "09:41",
+    "time": "19:42",
     "battery": 68,
     "network": "5G",
     "wallpaper": "sage",
     "passcode": "0112",
-    "theme": "light",
+    "theme": "dark",
     "notifications": true
   },
   "installedApps": [
@@ -35,82 +35,430 @@
   ],
   "contacts": [
     {
-      "id": "baby",
-      "name": "宝宝",
-      "phone": "13800000001",
+      "id": "zhuzhixin",
+      "name": "朱志鑫",
+      "phone": "13800000011",
       "avatar": "",
-      "bio": "备注只有一个爱心的联系人"
+      "bio": ""
     },
     {
-      "id": "courier",
-      "name": "快递驿站",
-      "phone": "13800000002",
+      "id": "jiaxin",
+      "name": "佳鑫宝贝",
+      "phone": "13800000012",
       "avatar": "",
-      "bio": "虚构的快递通知联系人"
+      "bio": ""
+    },
+    {
+      "id": "mom",
+      "name": "妈咪",
+      "phone": "13800000013",
+      "avatar": "",
+      "bio": ""
+    },
+    {
+      "id": "enzi",
+      "name": "恩仔",
+      "phone": "13800000014",
+      "avatar": "",
+      "bio": ""
+    },
+    {
+      "id": "xiaji",
+      "name": "小极",
+      "phone": "13800000015",
+      "avatar": "",
+      "bio": ""
+    },
+    {
+      "id": "husband",
+      "name": "老公",
+      "phone": "",
+      "avatar": "",
+      "bio": ""
+    },
+    {
+      "id": "colleague-a",
+      "name": "同事A",
+      "phone": "13800000021",
+      "avatar": "",
+      "bio": ""
+    },
+    {
+      "id": "colleague-b",
+      "name": "同事B",
+      "phone": "13800000022",
+      "avatar": "",
+      "bio": ""
+    },
+    {
+      "id": "colleague-c",
+      "name": "同事C",
+      "phone": "13800000023",
+      "avatar": "",
+      "bio": ""
+    },
+    {
+      "id": "colleague-d",
+      "name": "同事D",
+      "phone": "13800000024",
+      "avatar": "",
+      "bio": ""
     }
   ],
   "chats": [
     {
-      "id": "wechat-baby",
+      "id": "wechat-zhuzhixin",
       "app": "wechat",
-      "title": "宝宝",
+      "title": "朱志鑫",
       "participants": [
         "owner",
-        "baby"
+        "zhuzhixin"
       ],
       "messages": [
         {
-          "id": "wx-baby-1",
-          "title": "",
-          "body": "宝宝，记得拿快递哦。",
-          "senderId": "baby",
-          "time": "09:40",
-          "kind": "text",
-          "read": false
-        },
-        {
-          "id": "wx-baby-2",
-          "title": "",
-          "body": "好，等我忙完就去拿。你今天也别忘了吃饭。",
+          "id": "wx-zx-01",
+          "body": "学长，上周的方案我改好了，你看看还有没有要调整的地方",
           "senderId": "owner",
-          "time": "09:42",
+          "time": "18:41",
           "kind": "text",
           "read": true
         },
         {
-          "id": "wx-baby-3",
-          "title": "",
-          "body": "知道啦。还有，你上次落在我这里的围巾，我洗好了。",
-          "senderId": "baby",
-          "time": "09:43",
+          "id": "wx-zx-02",
+          "body": "收到，我晚点看。",
+          "senderId": "zhuzhixin",
+          "time": "18:43",
           "kind": "text",
           "read": true
         },
         {
-          "id": "wx-baby-4",
-          "title": "",
-          "body": "先替我收好吧。下次见面的时候，我想亲自去拿。",
+          "id": "wx-zx-03",
+          "body": "好～我不急，你先忙哦",
           "senderId": "owner",
-          "time": "09:45",
+          "time": "18:44",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "wx-zx-04",
+          "body": "看完了，没什么问题，很好了。",
+          "senderId": "zhuzhixin",
+          "time": "19:12",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "wx-zx-05",
+          "body": "好！谢谢学长",
+          "senderId": "owner",
+          "time": "19:13",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "wx-zx-06",
+          "body": "嗯。",
+          "senderId": "zhuzhixin",
+          "time": "19:13",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "wx-zx-07",
+          "body": "那学长早点忙完休息！",
+          "senderId": "owner",
+          "time": "19:14",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "wx-zx-08",
+          "body": "(*^.^*)",
+          "senderId": "owner",
+          "time": "19:14",
           "kind": "text",
           "read": true
         }
       ]
     },
     {
-      "id": "wechat-group",
+      "id": "wechat-jiaxin",
       "app": "wechat",
-      "title": "工作群",
+      "title": "佳鑫宝贝",
       "participants": [
-        "owner"
+        "owner",
+        "jiaxin"
       ],
       "messages": [
         {
-          "id": "wx-work-1",
-          "title": "",
-          "body": "今天的行程已经发到群文件，大家记得确认。",
+          "id": "wx-jx-01",
+          "body": "语音通话 · 17分35秒",
           "senderId": "owner",
-          "time": "08:55",
+          "time": "昨天",
+          "kind": "call",
+          "read": true
+        },
+        {
+          "id": "wx-jx-02",
+          "body": "语音消息 · 00:38",
+          "senderId": "jiaxin",
+          "time": "19:31",
+          "kind": "audio",
+          "read": true
+        },
+        {
+          "id": "wx-jx-03",
+          "body": "语音消息 · 01:12",
+          "senderId": "owner",
+          "time": "19:32",
+          "kind": "audio",
+          "read": true
+        },
+        {
+          "id": "wx-jx-04",
+          "body": "语音消息 · 00:56",
+          "senderId": "jiaxin",
+          "time": "19:33",
+          "kind": "audio",
+          "read": true
+        },
+        {
+          "id": "wx-jx-05",
+          "body": "语音消息 · 00:24",
+          "senderId": "owner",
+          "time": "19:33",
+          "kind": "audio",
+          "read": true
+        }
+      ]
+    },
+    {
+      "id": "wechat-mom",
+      "app": "wechat",
+      "title": "妈咪",
+      "participants": [
+        "owner",
+        "mom"
+      ],
+      "messages": [
+        {
+          "id": "wx-mom-01",
+          "body": "妈咪吃饭了吗！我吃了番茄鸡蛋面(*∩_∩*)",
+          "senderId": "owner",
+          "time": "昨天",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "wx-mom-02",
+          "body": "吃了，你一个人住要照顾好自己，别总吃速食。",
+          "senderId": "mom",
+          "time": "昨天",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "wx-mom-03",
+          "body": "aiya我知道啦！",
+          "senderId": "owner",
+          "time": "昨天",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "wx-mom-04",
+          "body": "过几天我和你爸爸去旅游，你自己照顾好自己哦。刚工作不用太着急，钱不够用就找爸爸妈妈",
+          "senderId": "mom",
+          "time": "昨天",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "wx-mom-05",
+          "body": "好啦妈咪，不用担心我！爸爸最近腰好些没有呀？",
+          "senderId": "owner",
+          "time": "昨天",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "wx-mom-06",
+          "body": "好多了，你别操心我们，自己注意身体，别熬夜。",
+          "senderId": "mom",
+          "time": "昨天",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "wx-mom-07",
+          "body": "我没有熬夜！！昨天十一点就睡了hiahia！",
+          "senderId": "owner",
+          "time": "昨天",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "wx-mom-08",
+          "body": "好，我们帅帅最乖啦",
+          "senderId": "mom",
+          "time": "昨天",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "wx-mom-09",
+          "body": "(*∩_∩*)",
+          "senderId": "owner",
+          "time": "昨天",
+          "kind": "text",
+          "read": true
+        }
+      ]
+    },
+    {
+      "id": "wechat-enzi",
+      "app": "wechat",
+      "title": "恩仔",
+      "participants": [
+        "owner",
+        "enzi"
+      ],
+      "messages": []
+    },
+    {
+      "id": "wechat-xiaji",
+      "app": "wechat",
+      "title": "小极",
+      "participants": [
+        "owner",
+        "xiaji"
+      ],
+      "messages": []
+    },
+    {
+      "id": "wechat-husband",
+      "app": "wechat",
+      "title": "老公",
+      "participants": [
+        "owner",
+        "husband"
+      ],
+      "messages": [
+        {
+          "id": "wx-husband-01",
+          "body": "宝宝，在干嘛呢？",
+          "senderId": "husband",
+          "time": "19:37",
+          "kind": "text",
+          "read": false
+        },
+        {
+          "id": "wx-husband-02",
+          "body": "好喜欢你啊宝贝，我忍不住了",
+          "senderId": "husband",
+          "time": "19:38",
+          "kind": "text",
+          "read": false
+        },
+        {
+          "id": "wx-husband-03",
+          "body": "好想抱抱你亲亲你",
+          "senderId": "husband",
+          "time": "19:38",
+          "kind": "text",
+          "read": false
+        },
+        {
+          "id": "wx-husband-04",
+          "body": "今天怎么又对着别人笑了呢，宝宝真不乖呀，非逼着老公惩罚你才能听话吗",
+          "senderId": "husband",
+          "time": "19:39",
+          "kind": "text",
+          "read": false
+        },
+        {
+          "id": "wx-husband-05",
+          "body": "只喜欢我好不好？总有一天你会只属于我的。",
+          "senderId": "husband",
+          "time": "19:40",
+          "kind": "text",
+          "read": false
+        },
+        {
+          "id": "wx-husband-06",
+          "body": "好想把你关起来，每天都只能看见我，只要讨好我就好了。",
+          "senderId": "husband",
+          "time": "19:40",
+          "kind": "text",
+          "read": false
+        },
+        {
+          "id": "wx-husband-07",
+          "body": "如果你全身都是我的痕迹，还敢这么不乖吗？",
+          "senderId": "husband",
+          "time": "19:41",
+          "kind": "text",
+          "read": false
+        }
+      ]
+    },
+    {
+      "id": "wechat-work",
+      "app": "wechat",
+      "title": "工作群",
+      "participants": [
+        "owner",
+        "colleague-a",
+        "colleague-b",
+        "colleague-c",
+        "colleague-d"
+      ],
+      "messages": [
+        {
+          "id": "wx-work-01",
+          "body": "今天同步的内容我放群里了，大家有空看一下。",
+          "senderId": "colleague-a",
+          "time": "17:26",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "wx-work-02",
+          "body": "收到，我晚点确认。",
+          "senderId": "owner",
+          "time": "17:28",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "wx-work-03",
+          "body": "我这边也看到了，没问题。",
+          "senderId": "colleague-b",
+          "time": "17:31",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "wx-work-04",
+          "body": "好的，辛苦大家。",
+          "senderId": "colleague-c",
+          "time": "17:34",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "wx-work-05",
+          "body": "收到。",
+          "senderId": "colleague-d",
+          "time": "17:35",
+          "kind": "text",
+          "read": true
+        },
+        {
+          "id": "wx-work-06",
+          "body": "明天的时间我再和大家对一下。",
+          "senderId": "owner",
+          "time": "17:38",
           "kind": "text",
           "read": true
         }
@@ -120,161 +468,220 @@
   "content": {
     "phone": [
       {
-        "id": "call-history-baby",
-        "title": "宝宝",
-        "body": "最近一次通话：昨天 23:18 · 12分06秒",
+        "id": "call-zx-01",
+        "title": "朱志鑫",
+        "body": "呼出 · 昨天 22:16 · 6分42秒",
         "kind": "call",
+        "time": "昨天 22:16",
         "meta": {
-          "phone": "13800000001"
+          "phone": "13800000011"
+        }
+      },
+      {
+        "id": "call-zx-02",
+        "title": "朱志鑫",
+        "body": "呼入 · 昨天 18:52 · 2分18秒",
+        "kind": "call",
+        "time": "昨天 18:52",
+        "meta": {
+          "phone": "13800000011"
+        }
+      },
+      {
+        "id": "call-jx-01",
+        "title": "佳鑫宝贝",
+        "body": "语音通话 · 昨天 · 17分35秒",
+        "kind": "call",
+        "time": "昨天 21:08",
+        "meta": {
+          "phone": "13800000012"
+        }
+      },
+      {
+        "id": "call-jx-02",
+        "title": "佳鑫宝贝",
+        "body": "呼出 · 前天 23:41 · 4分09秒",
+        "kind": "call",
+        "time": "前天 23:41",
+        "meta": {
+          "phone": "13800000012"
+        }
+      },
+      {
+        "id": "call-mom-01",
+        "title": "妈咪",
+        "body": "呼入 · 昨天 20:05 · 8分21秒",
+        "kind": "call",
+        "time": "昨天 20:05",
+        "meta": {
+          "phone": "13800000013"
+        }
+      },
+      {
+        "id": "call-mom-02",
+        "title": "妈咪",
+        "body": "呼出 · 周一 19:32 · 3分56秒",
+        "kind": "call",
+        "time": "周一 19:32",
+        "meta": {
+          "phone": "13800000013"
+        }
+      },
+      {
+        "id": "call-enzi-01",
+        "title": "恩仔",
+        "body": "呼出 · 昨天 16:48 · 1分37秒",
+        "kind": "call",
+        "time": "昨天 16:48",
+        "meta": {
+          "phone": "13800000014"
+        }
+      },
+      {
+        "id": "call-xiaji-01",
+        "title": "小极",
+        "body": "呼入 · 前天 21:17 · 5分12秒",
+        "kind": "call",
+        "time": "前天 21:17",
+        "meta": {
+          "phone": "13800000015"
+        }
+      },
+      {
+        "id": "call-a-01",
+        "title": "同事A",
+        "body": "呼入 · 今天 16:24 · 1分12秒",
+        "kind": "call",
+        "time": "今天 16:24",
+        "meta": {
+          "phone": "13800000021"
+        }
+      },
+      {
+        "id": "call-b-01",
+        "title": "同事B",
+        "body": "呼出 · 今天 14:06 · 2分03秒",
+        "kind": "call",
+        "time": "今天 14:06",
+        "meta": {
+          "phone": "13800000022"
+        }
+      },
+      {
+        "id": "call-c-01",
+        "title": "同事C",
+        "body": "呼入 · 昨天 11:32 · 48秒",
+        "kind": "call",
+        "time": "昨天 11:32",
+        "meta": {
+          "phone": "13800000023"
+        }
+      },
+      {
+        "id": "call-d-01",
+        "title": "同事D",
+        "body": "呼出 · 昨天 18:09 · 3分26秒",
+        "kind": "call",
+        "time": "昨天 18:09",
+        "meta": {
+          "phone": "13800000024"
         }
       }
     ],
-    "notes": [
+    "music": [
       {
-        "id": "note-hidden",
-        "title": "没写完的话",
-        "body": "有些话当面说会紧张，所以先写在这里。\\n\\n每次看到你发来的消息，我都会忍不住先笑。那条围巾其实不急着拿回来，我只是想找个理由再见你一次。\\n\\n如果下次见面，你愿意和我一起去看那场电影吗？",
-        "kind": "note",
-        "time": "昨天 23:36",
-        "folder": "私人",
-        "hidden": true
-      }
-    ],
-    "photos": [
-      {
-        "id": "photo-hidden",
-        "title": "最近收藏",
-        "body": "一张两个人在傍晚街边拍下的合照。照片没有公开发布，备注：下次还想和你来。",
-        "kind": "image",
-        "time": "昨天 18:22",
-        "hidden": true
-      }
-    ],
-    "calendar": [
-      {
-        "id": "calendar-movie",
-        "title": "电影 · 记得赴约",
-        "body": "周六 19:30 · 两张票。备注：不要迟到。",
+        "id": "music-today",
+        "title": "Today（feat. 金钟完）",
+        "body": "权志龙",
         "kind": "event",
-        "time": "周六 19:30"
-      }
-    ],
-    "delivery": [
-      {
-        "id": "parcel-001",
-        "title": "有一个包裹待取件",
-        "body": "包裹已到附近驿站。取件码：暂未查看。",
-        "kind": "order",
-        "time": "今天 09:30",
+        "time": "资料库",
         "meta": {
-          "status": "待取件"
+          "artist": "权志龙"
+        }
+      },
+      {
+        "id": "music-without-you",
+        "title": "Without You（feat. ROSÉ）",
+        "body": "权志龙",
+        "kind": "event",
+        "time": "资料库",
+        "meta": {
+          "artist": "权志龙"
+        }
+      },
+      {
+        "id": "music-missing-you",
+        "title": "Missing You（feat. 金润雅）",
+        "body": "权志龙",
+        "kind": "event",
+        "time": "资料库",
+        "meta": {
+          "artist": "权志龙"
+        }
+      },
+      {
+        "id": "music-divina-commedia",
+        "title": "Divina Commedia",
+        "body": "权志龙",
+        "kind": "event",
+        "time": "资料库",
+        "meta": {
+          "artist": "权志龙"
+        }
+      },
+      {
+        "id": "music-one-year-station",
+        "title": "One Year Station（1년 정거장）",
+        "body": "权志龙",
+        "kind": "event",
+        "time": "资料库",
+        "meta": {
+          "artist": "权志龙"
+        }
+      },
+      {
+        "id": "music-this-love",
+        "title": "This Love",
+        "body": "权志龙",
+        "kind": "event",
+        "time": "资料库",
+        "meta": {
+          "artist": "权志龙"
+        }
+      },
+      {
+        "id": "music-stay-with-me",
+        "title": "Stay With Me（太阳 feat. GD）",
+        "body": "权志龙",
+        "kind": "event",
+        "time": "资料库",
+        "meta": {
+          "artist": "太阳 feat. GD"
+        }
+      },
+      {
+        "id": "music-dancing-on-my-own",
+        "title": "Dancing On My Own",
+        "body": "权志龙",
+        "kind": "event",
+        "time": "资料库",
+        "meta": {
+          "artist": "权志龙"
+        }
+      },
+      {
+        "id": "music-black",
+        "title": "BLACK（慢版氛围）",
+        "body": "权志龙",
+        "kind": "event",
+        "time": "资料库",
+        "meta": {
+          "artist": "权志龙"
         }
       }
     ]
   },
   "variables": {},
-  "events": [
-    {
-      "id": "welcome",
-      "label": "解锁后的提醒",
-      "type": "start",
-      "actions": [
-        {
-          "type": "notification",
-          "key": "",
-          "value": "微信 · 宝宝：宝宝，记得拿快递哦。"
-        }
-      ]
-    },
-    {
-      "id": "read-first-message",
-      "label": "读到宝宝的提醒",
-      "event": "read",
-      "target": "wx-baby-1",
-      "actions": [
-        {
-          "type": "unlock",
-          "key": "note-hidden",
-          "value": true
-        },
-        {
-          "type": "notification",
-          "key": "",
-          "value": "备忘录：有一条私人笔记可以查看了。"
-        }
-      ]
-    },
-    {
-      "id": "read-hidden-note",
-      "label": "读完没写完的话",
-      "event": "read",
-      "target": "note-hidden",
-      "next": [
-        "call-delay"
-      ]
-    },
-    {
-      "id": "call-delay",
-      "label": "稍后，宝宝来电",
-      "type": "delay",
-      "delayMs": 1200,
-      "actions": [
-        {
-          "type": "call",
-          "key": "call-baby",
-          "value": "宝宝"
-        }
-      ]
-    },
-    {
-      "id": "answer-baby",
-      "label": "接听宝宝的电话",
-      "event": "callAnswered",
-      "target": "call-baby",
-      "actions": [
-        {
-          "type": "unlock",
-          "key": "photo-hidden",
-          "value": true
-        },
-        {
-          "type": "notification",
-          "key": "",
-          "value": "照片：一张收藏的照片已解锁。"
-        },
-        {
-          "type": "ending",
-          "key": "",
-          "value": "你接起了电话。苏新皓轻声问：“围巾……你还替我收着吗？”电话那头传来熟悉的笑声。"
-        }
-      ]
-    }
-  ],
-  "tests": [
-    {
-      "name": "romance-first-playthrough",
-      "steps": [
-        {
-          "event": "read",
-          "target": "wx-baby-1"
-        },
-        {
-          "event": "read",
-          "target": "note-hidden"
-        },
-        {
-          "advanceMs": 1200
-        },
-        {
-          "event": "callAnswered",
-          "target": "call-baby"
-        }
-      ],
-      "ending": "你接起了电话。苏新皓轻声问：“围巾……你还替我收着吗？”电话那头传来熟悉的笑声。",
-      "expectUnlocked": [
-        "note-hidden",
-        "photo-hidden"
-      ]
-    }
-  ]
+  "events": [],
+  "tests": []
 }
