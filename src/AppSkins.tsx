@@ -69,6 +69,20 @@ function Avatar({
 }
 function ItemMedia({ item }: { item: Item }) {
   const src = safeMedia(item.media);
+  if (item.kind === "audio" && !src) {
+    const duration = item.body.match(/\d{1,2}:\d{2}/)?.[0] ?? "00:38";
+    return (
+      <div className="wx-voice-message" aria-label={`语音消息 ${duration}`}>
+        <span className="wx-voice-speaker" aria-hidden="true">◖))</span>
+        <span className="wx-voice-wave" aria-hidden="true">
+          {[7, 12, 9, 16, 11, 18, 8, 14, 6].map((height, index) => (
+            <i key={index} style={{ height: `${height}px` }} />
+          ))}
+        </span>
+        <span className="wx-voice-duration">{duration}</span>
+      </div>
+    );
+  }
   return src ? (
     item.kind === "audio" ? (
       <audio controls src={src} />
