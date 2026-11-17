@@ -137,8 +137,7 @@
         "kind": "note",
         "time": "昨天 23:36",
         "folder": "私人",
-        "hidden": true,
-        "unlock": "note-hidden"
+        "hidden": true
       }
     ],
     "photos": [
@@ -148,8 +147,7 @@
         "body": "一张两个人在傍晚街边拍下的合照。照片没有公开发布，备注：下次还想和你来。",
         "kind": "image",
         "time": "昨天 18:22",
-        "hidden": true,
-        "unlock": "photo-hidden"
+        "hidden": true
       }
     ],
     "calendar": [
