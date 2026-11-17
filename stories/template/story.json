@@ -597,7 +597,8 @@
         "time": "资料库",
         "meta": {
           "artist": "权志龙"
-        }
+        },
+        "sender": "权志龙"
       },
       {
         "id": "music-without-you",
@@ -607,7 +608,8 @@
         "time": "资料库",
         "meta": {
           "artist": "权志龙"
-        }
+        },
+        "sender": "权志龙"
       },
       {
         "id": "music-missing-you",
@@ -617,7 +619,8 @@
         "time": "资料库",
         "meta": {
           "artist": "权志龙"
-        }
+        },
+        "sender": "权志龙"
       },
       {
         "id": "music-divina-commedia",
@@ -627,7 +630,8 @@
         "time": "资料库",
         "meta": {
           "artist": "权志龙"
-        }
+        },
+        "sender": "权志龙"
       },
       {
         "id": "music-one-year-station",
@@ -637,7 +641,8 @@
         "time": "资料库",
         "meta": {
           "artist": "权志龙"
-        }
+        },
+        "sender": "权志龙"
       },
       {
         "id": "music-this-love",
@@ -647,7 +652,8 @@
         "time": "资料库",
         "meta": {
           "artist": "权志龙"
-        }
+        },
+        "sender": "权志龙"
       },
       {
         "id": "music-stay-with-me",
@@ -656,8 +662,9 @@
         "kind": "event",
         "time": "资料库",
         "meta": {
-          "artist": "太阳 feat. GD"
-        }
+          "artist": "权志龙"
+        },
+        "sender": "权志龙"
       },
       {
         "id": "music-dancing-on-my-own",
@@ -667,7 +674,8 @@
         "time": "资料库",
         "meta": {
           "artist": "权志龙"
-        }
+        },
+        "sender": "权志龙"
       },
       {
         "id": "music-black",
@@ -677,7 +685,8 @@
         "time": "资料库",
         "meta": {
           "artist": "权志龙"
-        }
+        },
+        "sender": "权志龙"
       }
     ]
   },
